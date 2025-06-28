@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Electricity Consumption Dashboard</title>
+</head>
+<body>
+  <h1>⚡ Electricity Consumption of Users</h1>
+
+  <!-- Tableau Embed using Web Component -->
+  <script type="module" src="https://public.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js"></script>
+  <tableau-viz
+    id="electricityViz"
+    src="https://public.tableau.com/views/MYPROJECT_17510094780360/DASHBOARDOFPROJECT?:showVizHome=no&:embed=true"
+    hide-tabs
+    toolbar="bottom"
+    style="width:100%;height:820px;">
+  </tableau-viz>
+</body>
+</html>
